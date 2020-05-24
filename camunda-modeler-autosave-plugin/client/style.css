@@ -1,0 +1,17 @@
+#autoSaveConfigForm * {
+  font-size: 16px;
+}
+
+#autoSaveConfigForm button {
+  margin-left: 6px;
+}
+
+#autoSaveConfigButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#autoSaveConfigButtons button {
+  font-size: 16px;
+  margin-left: 6px;
+}
