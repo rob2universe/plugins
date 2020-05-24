@@ -1,5 +1,7 @@
 # Camunda Modeler Plugin Collection
-A selection of useful Camunda Modeler plugins as described in [https://medium.com/@robert.emsbach](https://medium.com/@robert.emsbach)
+A selection of useful Camunda Modeler plugins as described in
+ 
+ [The best free Plugins for Camunda's BPMN 2 Modeler](https://medium.com/@robert.emsbach/the-best-free-plugins-for-camundas-bpmn-2-modeler-14eee0c9fdd2)
 
 This repo aggregates plugins from these sources:
 
