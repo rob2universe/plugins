@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "bpmn-js": "^3.4.1",
-    "bpmn-js-properties-panel": "^0.30.0",
+    "bpmn-js-properties-panel": "^0.31.0",
     "diagram-js": "^3.3.0",
     "inherits": "^2.0.3"
   }
