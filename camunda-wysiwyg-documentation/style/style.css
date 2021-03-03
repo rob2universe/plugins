@@ -1,0 +1,110 @@
+.documentationModal {
+    width: 95%;
+    height: 80%;
+}
+
+#documentationButtons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+#documentationButtons button {
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.modal-content, .modal-body {
+    height: 100%;
+}
+
+input[id$="-documentation"], input[id$="-extendedDocumentation"] {
+    width: 90% !important;
+    height: 25px !important;
+}
+
+.openRichTextEditor {
+    width: 10% !important;
+    height: 25px !important;
+}
+
+.openRichTextEditor span {
+    display: block !important;
+    font-style: italic;
+}
+
+/* Export icon */
+.exportBtn {
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTM1MiwyODguOTk0djEyNy4wMDhINjR2LTI4OGg5NnYtNjRIMzJjLTE3LjY2NCwwLTMyLDE0LjMzNi0zMiwzMnYzNTJjMCwxNy42OTYsMTQuMzM2LDMyLDMyLDMyaDM1Mg0KCQkJYzE3LjY5NiwwLDMyLTE0LjMwNCwzMi0zMlYyODguOTk0SDM1MnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNTA1LjYsMTMxLjIwMmwtMTI4LTk2Yy00LjgtMy42NDgtMTEuMzI4LTQuMjI0LTE2LjczNi0xLjUwNGMtNS40NCwyLjcyLTguODY0LDguMjU2LTguODY0LDE0LjMwNHY0OGgtNDgNCgkJCWMtOTcuMDU2LDAtMTc2LDc4Ljk0NC0xNzYsMTc2YzAsNy40MjQsNS4xMiwxMy44ODgsMTIuMzIsMTUuNTg0YzEuMjE2LDAuMjg4LDIuNDY0LDAuNDE2LDMuNjgsMC40MTYNCgkJCWM1Ljk1MiwwLDExLjU1Mi0zLjMyOCwxNC4zMDQtOC44MzJsMy43NzYtNy41MmMyNC41NDQtNDkuMTIsNzMuODg4LTc5LjY0OCwxMjguOC03OS42NDhIMzUydjQ4DQoJCQljMCw2LjA0OCwzLjQyNCwxMS41ODQsOC44MzIsMTQuMzA0YzUuNDA4LDIuNzIsMTEuOTM2LDIuMTQ0LDE2Ljc2OC0xLjUwNGwxMjgtOTZjNC4wMzItMy4wMDgsNi40LTcuNzc2LDYuNC0xMi44DQoJCQlTNTA5LjYzMiwxMzQuMjEsNTA1LjYsMTMxLjIwMnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==') no-repeat top left !important;
+    background-size: 18px 18px !important;
+    display: inline-block !important;
+    background-position: center !important;
+}
+
+.icon-button {
+    font-size: 120% !important;
+}
+
+/* Export Mode*/
+.bjs-container.exportMode .djs-palette.hidden {
+    display: none;
+}
+.bjs-container.exportMode .djs-outline,
+.bjs-container.exportMode .djs-bendpoint,
+.bjs-container.exportMode .djs-segment-dragger,
+.bjs-container.exportMode .djs-resizer {
+    display: none !important;
+}
+
+
+/* Button style */
+.toolbarBtn {
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px;
+    border: solid 1px transparent;
+    background: transparent;
+    vertical-align: middle;
+    font-size: 14px;
+    outline: none;
+    color: #444;
+    height: 29px;
+    width: 29px;
+}
+
+.toolbarBtn.disabled {
+    color: #999;
+    cursor: default;
+}
+
+.toolbarBtn:not(.disabled):hover,
+.toolbarBtn.active {
+    background-color: #eee !important;
+    border: solid 1px #ccc;
+}
+
+/* Overlay badges */
+.documentation-order {
+    border: 1px solid black;
+    border-radius: 100%;
+    min-width: 3vmin;
+    min-height: 3vmin;
+    line-height: 3vmin;
+    text-align: center;
+    font-size: 25px;
+    font-size: medium;
+    user-select: none;
+    padding: 2px;
+    box-sizing: content-box;
+    /*animation: jump 1s infinite;*/
+    /*animation-timing-function: ease;*/
+}
+
+.documentation-order.order-count {
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    background-color: #109AD0;
+}
+
+@keyframes jump {
+    50% { top: 5px; }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Documentation properties",
+  "prefix": "documentation",
+  "uri": "http://documentation.sh4.red",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "ExtendedDocumentation",
+      "extends": [
+        "bpmn:BaseElement"
+      ],
+      "properties": [
+        {
+          "name": "extendedDocumentation",
+          "type": "String",
+          "isAttr": true
+        },
+        {
+          "name": "order",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    }
+  ]
+}

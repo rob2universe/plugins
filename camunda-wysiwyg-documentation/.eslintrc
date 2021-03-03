@@ -1,0 +1,10 @@
+{
+  "extends": ["plugin:bpmn-io/es6", "plugin:react/recommended"],
+  "rules": {
+    "react/prop-types": 0
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  }
+}
